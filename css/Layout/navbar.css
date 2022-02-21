@@ -1,0 +1,84 @@
+.navbar {
+    position: relative;
+    float: left;
+    height: 100vh;
+    width: 226px;
+    border-right-color: chocolate;
+    border-right: 1px solid #dddddd;
+    box-sizing: border-box;
+    background-color: #393a3d;
+}
+
+.m-logo-box {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.m-logo-page {
+    display: flex;
+    box-sizing: border-box;
+    width: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-logo-box .m-toggle {
+    height: 32px;
+    width: 32px;
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -424px -86px;
+}
+
+.m-logo-box .m-logo-page {
+    flex: 1;
+    height: 32px;
+    width: 32px;
+    background-image: url(../../content/img/Logo_Module_TiengViet_White.66947422.svg);
+    margin-left: 10px;
+    background-position: 0 center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.m-navbar-box {
+    width: 100%;
+}
+
+.m-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 44px;
+    color: #000;
+    cursor: pointer;
+}
+
+.m-menu-item:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+.m-menu-item:active {
+    background-color: #019160;
+    color: #ffffff;
+}
+
+.m-menu-item .m-menu-item-icon {
+    margin-right: 10px;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* background-position: 0 center; */
+}
+
+.m-menu-item-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.m-menu-item-text {
+    color: #ffffff;
+}

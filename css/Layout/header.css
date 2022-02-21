@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    float: right;
+    height: 48px;
+    width: calc(100% - 226px);
+    border-bottom: 1px solid #dddddd;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-select .select {}
+
+.header-select-option {
+    border: none;
+    padding-left: 16px;
+}
+
+.header-account {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.header-account .header-account-img {
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+
+.header-account-img {
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+}
+
+.header-account-text {
+    padding-right: 16px;
+}
+
+table.m-table thead {
+    background-color: #eceef1;
+    top: 0;
+    position: sticky;
+}

@@ -1,0 +1,258 @@
+.m-dialog-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000087;
+    display: none;
+    z-index: 1000;
+}
+
+.m-insert-employee {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    /* height: 100%; */
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px
+}
+
+.m-dialog-modal {
+    /* height: calc(100vh -112px); */
+    /* background-color: chartreuse; */
+}
+
+.insert-content {
+    height: calc(100vh - 240px);
+    /* background-color: chocolate; */
+    width: 100%;
+}
+
+.insert-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    /* background-color: blanchedalmond; */
+}
+
+.insert-content-top-left {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+.insert-content-top-left-input1-code {
+    width: 130px;
+    box-sizing: border-box;
+    margin-right: 100px;
+}
+
+.m-input2-positon {
+    width: 100%;
+}
+
+.m-input-1 {
+    max-width: unset;
+    width: 100%;
+    /* padding: unset; */
+    box-sizing: border-box;
+    border-radius: unset;
+}
+
+.insert-content-top-left-input1 {
+    display: flex;
+}
+
+.m-combobox {
+    width: 100%;
+}
+
+.insert-content-top-left-combobox {
+    width: 100%;
+}
+
+.insert-content-top {
+    height: 50%;
+    display: flex;
+}
+
+.insert-bottom {
+    height: 56px;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dddddd;
+}
+
+.insert-bottom-right-store {
+    padding-right: 16px;
+}
+
+.insert-bottom-right {
+    display: flex;
+}
+
+.insert-icon-exit {
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.insert-icon-question {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.insert-header-icon {
+    padding-top: 12px;
+}
+
+.insert-header-left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.insert-header-checkbox-employee {
+    width: 24px;
+    height: 24px;
+}
+
+.insert-header-text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.insert-header-text-employee {
+    margin: 0 15px;
+}
+
+.insert-header-text-supply {
+    margin: 0 8px;
+}
+
+.header-checkbox-employee {
+    margin: 0 8px;
+    height: 24px;
+    width: 24px;
+}
+
+.header-checkbox-supply {
+    height: 24px;
+    margin: 0px 8px;
+    width: 24px;
+}
+
+.insert-content-top-right {
+    width: 50%;
+    height: 100%;
+}
+
+.insert-content-top-right-input1-date {
+    width: 200px;
+}
+
+.insert-content-top-right-checkbox-option {
+    display: flex;
+}
+
+.insert-content-top-right-input1 {
+    display: flex;
+}
+
+.insert-content-top-right-checkbox {
+    margin-left: 16px;
+}
+
+.insert-radio {
+    height: 23px;
+    width: 23px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.insert-content-top-right-input2 {
+    display: flex;
+}
+
+.m-input2-positon {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.insert-content-top-right-input2-indentityNumber {
+    margin-right: 14px;
+}
+
+.m-input-identity {
+    width: 230px;
+}
+
+.m-input-indentityPlace {
+    /* padding: unset; */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.pading-top-16px {
+    padding-top: 16px;
+}
+
+.pading-top-20px {
+    padding-top: 20px;
+}
+
+.pading-right-8px {
+    padding-right: 16px;
+}
+
+.insert-content-bottom {
+    height: 50%;
+    /* background-color: violet; */
+}
+
+.input-with-max {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.insert-content-bottom-imput1 {
+    display: flex;
+    padding-top: 16px;
+}
+
+.insert-content-bottom-imput2 {
+    display: flex;
+    padding-top: 16px;
+}
+
+.insert-content-top-right-checkbox-option-male {
+    display: flex;
+    align-items: center;
+}
+
+.insert-content-top-right-checkbox-option-female {
+    display: flex;
+    align-items: center;
+}
+
+.insert-content-top-right-checkbox-option-different {
+    display: flex;
+    align-items: center;
+}
+
+.m-combobox-update {
+    background-color: #e9ebee;
+    border: unset;
+}

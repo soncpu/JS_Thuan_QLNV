@@ -1,0 +1,21 @@
+.m-combobox {
+    min-width: 200px;
+    min-height: 40px;
+}
+
+.div-combobox {
+    width: 100%;
+    top: 50%;
+    box-sizing: border-box;
+}
+
+.divcombobox {
+    width: 300px;
+    margin: 30px 50%;
+    top: 50%;
+    border: 1px solid #dddddd;
+}
+
+.m-combobox:focus {
+    border: 1px solid springgreen;
+}

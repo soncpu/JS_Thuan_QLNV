@@ -1,0 +1,62 @@
+table.m-table {
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+    overflow: auto;
+    width: 100%;
+}
+
+table.m-table tbody tr:nth-child(2n) {
+    background-color: #E9EBEE;
+}
+
+#btnUpdate {
+    background-color: unset;
+}
+
+table.m-table tr {
+    height: 48px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.row-selected {
+    background-color: brown !important;
+}
+
+table.m-table thead {
+    z-index: 1000;
+}
+
+table.m-table td,
+th {
+    padding: 0 8px;
+    border: none;
+}
+
+#btnUpdate {
+    border: none;
+    cursor: pointer;
+    /* background-color: #f4f5f8; */
+    margin-right: 8px;
+    color: blue;
+}
+
+#cbxDelete {
+    border: unset;
+    color: blue;
+}
+
+
+/* table.m-table tr td #Option {
+    position: absolute;
+    width: 100%;
+} */
+
+.m-table tbody td #Option {
+    position: absolute !important;
+}
+
+#m-combobox-data-1 {
+    width: 50px;
+}

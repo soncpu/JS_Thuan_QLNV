@@ -1,0 +1,75 @@
+.m-paging {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 24px;
+    /* position: absolute; */
+    align-items: center;
+    /* margin-bottom: 20px;
+    left: 24px;
+    right: 24px; */
+}
+
+.paging-left {
+    float: left;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    line-height: 56px;
+}
+
+.paging-right {
+    display: flex;
+    float: right;
+    /* width: 200px; */
+    height: 100%;
+    align-items: center;
+    line-height: 56px;
+    padding-right: 35px;
+}
+
+
+/* .paging-center {
+    display: flex;
+    align-items: center;
+} */
+
+.m-paging-number {
+    display: flex;
+    align-items: center;
+    margin: 0 6px;
+}
+
+.m-number {
+    height: 24px;
+    width: 24px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    /* border-radius: 50%; */
+    line-height: 24px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.m-button {
+    cursor: pointer;
+}
+
+.m-number:active {
+    background-color: #019160;
+}
+
+.icon-paging {
+    border: none;
+    background-color: #ffffff;
+}
+
+.m-paging-number-avtive {
+    background-color: #019160;
+}
+
+.paging-right-number {
+    display: flex;
+    padding-left: 16px;
+}

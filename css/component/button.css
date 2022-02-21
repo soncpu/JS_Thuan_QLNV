@@ -1,0 +1,39 @@
+.m-btn {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+    /* min-width: 100px; */
+}
+
+.m-btn:hover {
+    background-color: #2FBE8E;
+}
+
+.m-btn:active {
+    background-color: #01B075;
+}
+
+.m-btn-icon {
+    padding-left: 40px;
+}
+
+.m-btn-refesh {
+    width: 32px;
+    height: 32px;
+    padding-right: 39px;
+    border-radius: 4px;
+    background-image: url(/content/img/Sprites.64af8f61.svg);
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    background-position: -421px -198px;
+}

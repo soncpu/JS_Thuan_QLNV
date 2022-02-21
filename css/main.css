@@ -1,0 +1,35 @@
+@import url('./common/common.css');
+@import url('./component/input.css');
+@import url('./component/combobox.css');
+@import url('./component/table.css');
+@import url('/css/Layout/navbar.css');
+@import url('/css/Layout/header.css');
+@import url('/css/Layout/content.css');
+@import url('/css/component/icon.css');
+@import url('component/button.css');
+@import url('component/pagin-navigation.css');
+@import url('component/popup.css');
+@import url('/css/Layout/insert_emlpoyee.css');
+@import url('./component/toast-messager.css');
+@import url('./component/toast-messenger.css');
+body {
+    font-family: GoogleSans;
+    font-size: 13px;
+    margin: 0;
+    /* position: relative; */
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url("../content/font/GoogleSans-Regular.otf");
+}
+
+@font-face {
+    font-family: GoogleSans-Bold;
+    src: url("../content/font/GoogleSans-Bold.otf");
+}
+
+@font-face {
+    font-family: GoogleSans-Italic;
+    src: url("../content/font/GoogleSans-Italic.otf");
+}

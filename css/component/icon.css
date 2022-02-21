@@ -1,0 +1,166 @@
+.m-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.m-icon-warning {
+    color: rgb(255, 165, 0);
+}
+
+.m-menu-item-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-setting {
+    background-image: url(/content/icon/setting.png);
+}
+
+.icon-dasboard {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -30px -1628px;
+}
+
+.icon-sell {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -204px -1628px;
+}
+
+.icon-Purchase {
+    background-image: url(/content/img/Sprites.64af8f61.svg);
+    background-position: -161px -1628px;
+}
+
+.icon-deposits {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -73px -1628px;
+}
+
+.icon-Invoice-Management {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -249px -1628px;
+}
+
+.icon-warehouse {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -291px -1628px;
+}
+
+.icon-device {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -336px -1628px;
+}
+
+.icon-fixed-assets {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -378px -1628px;
+}
+
+.icon-tax {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -423px -1628px;
+}
+
+.icon-price {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -467px -1628px;
+}
+
+.icon-synthetic {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -510px -1628px;
+}
+
+.icon-budget {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -378px -1659px;
+}
+
+.icon-report {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -547px -1628px;
+}
+
+.icon-analysis {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -547px -1628px;
+}
+
+.icon-option {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -352px -894px;
+}
+
+.icon-20 {
+    background-size: 20px 20px;
+}
+
+.icon-16 {
+    background-size: 16px 16px;
+    background-position: left center;
+}
+
+.icon-bell {
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -788px -23px;
+}
+
+.icon-three-stripes {
+    height: 24px;
+    width: 24px;
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -843px -30px;
+}
+
+.icon-refesh {
+    background-image: url(/content/icon/refresh.png);
+}
+
+
+/* .icon-right {
+    background-position: left center;
+} */
+
+.icon-padding16 {
+    background-position-x: 16px;
+}
+
+.icon-pev {
+    background-image: url('/content/icon/btn-prev-page.svg');
+    margin: 0 8px;
+}
+
+.icon-next {
+    background-image: url('/content/icon/btn-next-page.svg');
+    margin: 0 8px;
+}
+
+.icon-first {
+    background-image: url('/content/icon/btn-firstpage.svg');
+    margin: 0 8px;
+}
+
+.icon-last {
+    background-image: url('/content/icon/btn-lastpage.svg');
+    margin: 0 8px;
+}
+
+.icon-24 {
+    background-size: 24px 24px;
+}
+
+.icon-exit {
+    height: 24px;
+    width: 24px;
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -144px -144px;
+}
+
+.icon-question {
+    height: 24px;
+    width: 24px;
+    background-image: url(../../content/img/Sprites.64af8f61.svg);
+    background-position: -200px -32px;
+}

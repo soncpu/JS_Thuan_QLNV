@@ -1,0 +1,69 @@
+.content {
+    /* position: relative; */
+    width: calc(100% - 226px);
+    height: calc(100vh - 64px);
+    float: right;
+    padding: 24px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #f4f5f8;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-toolbar {
+    display: flex;
+    padding: 8px 0px;
+    justify-content: right;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.content-toolbar-right {
+    padding-left: 24px;
+}
+
+.content-toolbar-left {
+    display: flex;
+}
+
+.content-toolbar-left-combobox1 {
+    padding-left: 16px;
+}
+
+.content-toolbar-left-combobox2 {
+    padding-left: 16px;
+}
+
+.m-gird {
+    display: flex;
+    flex: 1;
+    height: calc(100% - 124px);
+}
+
+.m-gird-table {
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
+.m-gird-paging {
+    width: 100%;
+}
+
+.m-table tbody td {
+    border-right: 1px solid #dddddd;
+}
+
+.m-table tbody td select {
+    cursor: pointer;
+    ;
+}
+
+.m-table th {
+    border-right: 1px solid #dddddd;
+}
